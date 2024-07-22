@@ -1,0 +1,129 @@
+#include <stdio.h>
+#include <conio.h>
+
+
+int main()
+{
+	int islem;
+	int sonuc=0;
+	int a;
+	int b;
+	char cevap='E';
+	while (cevap == 'E')
+	{
+
+		printf("Bir islem seciniz:\n ");
+		fflush (stdout);
+		printf("Toplama icin: 1\n");
+		fflush (stdout);
+		printf("Cikarma icin: 2\n");
+		fflush (stdout);
+		printf("Carpma icin: 3\n");
+		fflush (stdout);
+		printf("Bolme icin: 4\n");
+		fflush (stdout);
+
+		scanf("%d", &islem);
+
+		switch (islem)
+		{
+		case 1:
+			printf("--------------------\n");
+			fflush (stdout);
+			printf("------TOPLAMA-------\n");
+			fflush (stdout);
+			printf("--------------------\n");
+			fflush (stdout);
+			printf("------ a + b -------\n");
+			fflush (stdout);
+			printf("--------------------\n");
+			fflush (stdout);
+			printf("a sayisini giriniz: ");
+			fflush (stdout);
+			scanf("%d", &a);
+			printf("\nb sayisini giriniz: ");
+			fflush (stdout);
+			scanf("%d", &b);
+			sonuc = a + b;
+			printf("\n Toplama isleminin sonucu: %d",sonuc);
+			fflush (stdout);
+
+
+			break;
+
+		case 2:
+
+			printf("--------------------\n");
+			fflush (stdout);
+			printf("------CIKARMA-------\n");
+			fflush (stdout);
+			printf("--------------------\n");
+			fflush (stdout);
+			printf("------ a - b -------\n");
+			fflush (stdout);
+			printf("--------------------\n");
+			fflush (stdout);
+			printf("a sayisini giriniz: ");
+			fflush (stdout);
+			scanf("%d", &a);
+			printf("\nb sayisini giriniz: ");
+			fflush (stdout);
+			scanf("%d", &b);
+			sonuc = a - b;
+			printf("\nCikarma isleminin sonucu: %d", sonuc);
+			fflush (stdout);
+			break;
+		case 3:
+
+			printf("--------------------\n");
+			fflush (stdout);
+			printf("------CARPMA--------\n");
+			fflush (stdout);
+			printf("--------------------\n");
+			fflush (stdout);
+			printf("------ a * b -------\n");
+			fflush (stdout);
+			printf("--------------------\n");
+			fflush (stdout);
+			printf("a sayisini giriniz: ");
+			fflush (stdout);
+			scanf("%d", &a);
+			printf("\nb sayisini giriniz: ");
+			fflush (stdout);
+			scanf("%d", &b);
+			sonuc = a * b;
+			printf("\nCarpma isleminin sonucu: %d", sonuc);
+			fflush (stdout);
+			break;
+		case 4:
+			printf("--------------------\n");
+			fflush (stdout);
+			printf("------BOLME---------\n");
+			fflush (stdout);
+			printf("--------------------\n");
+			fflush (stdout);
+			printf("------ a / b -------\n");
+			fflush (stdout);
+			printf("--------------------\n");
+			fflush (stdout);
+			printf("a sayisini giriniz: ");
+			fflush (stdout);
+			scanf("%d", &a);
+			printf("\nb sayisini giriniz: ");
+			fflush (stdout);
+			scanf("%d", &b);
+			sonuc = a / b;
+			printf("\nBölme isleminin sonucu: %d", sonuc);
+			fflush (stdout);
+			break;
+		default:
+			printf("Yanlis secim yaptiniz...");
+			fflush (stdout);
+		}
+		printf("Baska islem yapmak istiyor musunuz: ");
+		fflush (stdout);
+		cevap = getchar();
+		scanf("%c", &cevap);
+	}
+
+}

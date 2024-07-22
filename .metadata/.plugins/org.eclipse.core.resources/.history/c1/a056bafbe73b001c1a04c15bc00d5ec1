@@ -1,0 +1,29 @@
+package dördüncü;
+import java.util.Scanner;
+import java.util.Random;
+
+public class SayiTahmiOyunu {
+
+	public static void main(String[] args) {
+		int tahmin ,can=5;
+		Scanner input = new Scanner(System.in);
+		Random rand = new Random();
+		int sayi = rand.nextInt(100);
+		while(can==0) {
+			System.out.println("!!!Sayý tutuldu tahmin edin!!!");
+			tahmin=input.nextInt();
+			if(tahmin==sayi) {
+				System.out.println("!!!Tebrikler bildiniz!!!");
+				break;
+			}
+			else {
+				can--;
+			}
+			if(can==0) {
+				System.out.println("!!!Doðru tahmin edemediniz canýnýz bitti!!!");
+			}
+		}
+		
+	}
+
+}

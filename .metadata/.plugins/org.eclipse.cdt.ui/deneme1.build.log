@@ -1,0 +1,9 @@
+16:37:48 **** Build of configuration Build (GNU) for project deneme1 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Program Files (x86)/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507/jre/bin/server;C:/Program Files (x86)/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507/jre/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\kale_\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;;C:\Program Files (x86)\eclipse;]
+
+16:37:48 Build Failed. 1 errors, 0 warnings. (took 42ms)
+

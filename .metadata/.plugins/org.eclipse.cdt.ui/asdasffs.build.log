@@ -1,0 +1,7 @@
+18:33:07 **** Rebuild of configuration Debug for project asdasffs ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\asdasffs.o" "..\\src\\asdasffs.c" 
+gcc -o asdasffs.exe "src\\asdasffs.o" 
+
+18:33:07 Build Finished. 0 errors, 0 warnings. (took 393ms)
+

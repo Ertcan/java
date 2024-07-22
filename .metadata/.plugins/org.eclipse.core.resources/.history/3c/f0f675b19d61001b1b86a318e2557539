@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+	int sayi;
+	printf("toplama icin 1'e cikarma icin 2'ye carpma icin 3'e bolme icin 4'e basiniz.");
+	scanf("%d", &sayi);
+	if (sayi==1)
+	    printf("toplanacak a ve b sayisini giriniz.a+b=?");
+
+
+}

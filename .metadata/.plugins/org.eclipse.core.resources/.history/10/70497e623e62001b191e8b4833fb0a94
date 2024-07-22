@@ -1,0 +1,94 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include <locale.h>
+#include <windows.h>
+int main(){
+    setlocale(LC_ALL, "turkish");
+    int sayi, a, d, x;
+
+	printf("\nToplama iþlemi için 1'e  \nÇýkarma iþlemi için 2'ye  \nÇarpma iþlemi için 3'e  \nBölme iþlemi için 4'e basýnýz :");
+	fflush (stdout);
+	scanf("%d", &sayi);
+	float c , b;
+	char e,h,q;
+
+	for(b=1;b<b+1;b++)
+	{
+	if(sayi==1)
+	{
+	printf("\nToplama iþlemini seçtiniz. a+b=?\n");
+	fflush (stdout);
+	printf("\nKlavyeden toplamak istediðiniz ilk sayýyý giriniz.(a)==");
+	fflush (stdout);
+	scanf("%f" ,&c);
+	printf("\nKlavyeden ilk sayýyla toplamak istediðiniz ikinci sayýyý giriniz.(b)==");
+	fflush (stdout);
+	scanf("%f", &b);
+	printf("\nÝþlemin cevabý : %.2f + %.2f = %.2f ",c,b,c+b);
+	fflush (stdout);
+    }
+    else if(sayi==2)
+    {
+    printf("\nÇýkarma iþlemini seçtiniz. a-b=?\n");
+    fflush (stdout);
+    printf("\nKlavyeden çýkarma iþleminin yapýlacaðý ilk sayýyý giriniz.(a)==");
+    fflush (stdout);
+	scanf("%f" ,&c);
+	printf("\nKlavyeden ilk sayýdan çýkarmak istediðiniz ikinci sayýyý giriniz.(b)==");
+	fflush (stdout);
+	scanf("%f", &b);
+	printf("\nÝþlemin cevabý : %.2f - %.2f = %.2f ",c,b,c-b);
+	fflush (stdout);
+	}
+	else if(sayi==3)
+	{
+    printf("\nÇarpma iþlemini seçtiniz. axb=?\n");
+    fflush (stdout);
+    printf("\nKlavyeden çarpmak istediðiniz ilk sayýyý giriniz.(a)==");
+    fflush (stdout);
+	scanf("%f" ,&c);
+	printf("\nKlavyeden ilk sayýyla çarpmak istediðiniz ikinci sayýyý giriniz.(b)==");
+	fflush (stdout);
+	scanf("%f", &b);
+	printf("\nÝþlemin cevabý : %.2f * %.2f = %.2f ",c,b,c*b);
+	fflush (stdout);
+	}
+	else if(sayi==4)
+	{
+    printf("\nBölme iþlemini seçtiniz. a/b=?\n");
+    fflush (stdout);
+    printf("\nKlavyeden bölünmesini istediðiniz ilk sayýyý giriniz.(a)==");
+    fflush (stdout);
+	scanf("%f" ,&c);
+	printf("\nKlavyeden ilk sayýyý bölmek istediðiniz ikinci sayýyý giriniz.(b)==");
+	fflush (stdout);
+	scanf("%f", &b);
+	goto x;
+	printf("\nÝþlemin cevabý : %.2f / %.2f = %.2f ",c,b,c/b);
+	fflush (stdout);
+	}
+	else
+	{
+x:		printf("!..Hatalý giriþ yaptýnýz..!");
+		fflush (stdout);
+	}
+	for(d=2;d<=2;d++){
+	printf("{\nBaþka bir iþlem yapmak ister misiniz? (e/h) \n");
+	fflush (stdout);
+	scanf("%s",&q);
+	if(q=='e')
+	{
+	printf("\nToplama iþlemi için 1'e \n Çýkarma iþlemi için 2'ye \n Çarpma iþlemi için 3'e \n Bölme iþlemi için 4'e basýnýz :");
+	fflush (stdout);
+	scanf("%d", &sayi);
+	}
+	else
+	{
+		printf("Bizi tercih ettiðiniz için teþekkürler.");
+		fflush (stdout);
+		return 0;
+	}
+
+}
+}
+}

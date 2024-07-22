@@ -1,0 +1,17 @@
+13:40:22 **** Rebuild of configuration Debug for project tek çift ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tek çift.o" "..\\src\\tek çift.c" 
+..\src\tek çift.c: In function 'main':
+..\src\tek çift.c:8:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+    8 |  scanf("%d", x);
+      |         ~^   ~
+      |          |   |
+      |          |   int
+      |          int *
+..\src\tek çift.c:8:2: warning: 'x' is used uninitialized in this function [-Wuninitialized]
+    8 |  scanf("%d", x);
+      |  ^~~~~~~~~~~~~~
+gcc -o "tek çift.exe" "src\\tek çift.o" 
+
+13:40:23 Build Finished. 0 errors, 2 warnings. (took 285ms)
+

@@ -1,0 +1,8 @@
+INDEX VERSION 1.131+C:\Users\kale_\Projeler\Java\.metadata\.plugins\org.eclipse.jdt.core
+1594961639.index
+3963757325.index
+3295470908.index
+1865797976.index
+3969746035.index
+3289905176.index
+3411717722.index

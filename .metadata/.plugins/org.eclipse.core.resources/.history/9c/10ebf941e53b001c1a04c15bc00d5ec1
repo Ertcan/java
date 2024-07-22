@@ -1,0 +1,18 @@
+package dördüncü;
+import java.util.Scanner;
+public class DizidekiElemanlarýnOrt {
+
+	public static void main(String[] args) {
+		double[] ort = new double[3];
+		double sayi;
+		Scanner input = new Scanner(System.in);
+		for(int i=0;i<ort.length;i++) {
+			System.out.println("Deðer girin.");
+			ort[i] = input.nextDouble();
+		
+		}
+		sayi=(ort[0]+ort[1]+ort[2]+ort[3])/ort.length;
+				System.out.println(sayi);
+	}
+
+}

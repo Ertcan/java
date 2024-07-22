@@ -1,0 +1,92 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include <locale.h>
+#include <windows.h>
+int main(){
+    setlocale(LC_ALL, "turkish");
+    int sayi, a, d;
+
+	printf("\ntoplama için 1'e  \nçikarma icin 2'ye  \nçarpma icin 3'e  \nbölme için 4'e basiniz.");
+	fflush (stdout);
+	scanf("%d", &sayi);
+	float c , b;
+	char e,h,q;
+
+	for(b=1;b<b+1;b++)
+	{
+	if(sayi==1)
+	{
+	printf("\ntoplama iþlemini seçtiniz. a+b=?\n");
+	fflush (stdout);
+	printf("\nklavyeden bir sayý giriniz.(a)==");
+	fflush (stdout);
+	scanf("%f" ,&c);
+	printf("\nklavyeden bir ikinci sayý giriniz.(b)==");
+	fflush (stdout);
+	scanf("%f", &b);
+	printf("\niþlemin cevabý: %.2f + %.2f = %.2f ",c,b,c+b);
+	fflush (stdout);
+    }
+    else if(sayi==2)
+    {
+    printf("\nçýkarma iþlemi seçtiniz. a-b=?\n");
+    fflush (stdout);
+    printf("\nklavyeden bir sayý giriniz.(a)==");
+    fflush (stdout);
+	scanf("%f" ,&c);
+	printf("\nklavyeden bir ikinci sayý giriniz.(b)==");
+	fflush (stdout);
+	scanf("%f", &b);
+	printf("\niþlemin cevabý: %.2f - %.2f = %.2f ",c,b,c-b);
+	fflush (stdout);
+	}
+	else if(sayi==3)
+	{
+    printf("\nçarpma iþlemi seçtiniz. axb=?\n");
+    fflush (stdout);
+    printf("\nklavyeden bir sayý giriniz.(a)==");
+    fflush (stdout);
+	scanf("%f" ,&c);
+	printf("\nklavyeden bir ikinci sayý giriniz.(b)==");
+	fflush (stdout);
+	scanf("%f", &b);
+	printf("\niþlemin cevabý: %.2f * %.2f = %.2f ",c,b,c*b);
+	fflush (stdout);
+	}
+	else if(sayi==4)
+	{
+    printf("\nbölme iþlemi seçtiniz. a/b=?\n");
+    fflush (stdout);
+    printf("\nklavyeden bir sayý giriniz.(a)==");
+    fflush (stdout);
+	scanf("%f" ,&c);
+	printf("\nklavyeden bir ikinci sayý giriniz.(b)==");
+	fflush (stdout);
+	scanf("%f", &b);
+	printf("\niþlemin cevabý: %.2f / %.2f = %.2f ",c,b,c/b);
+	fflush (stdout);
+	}
+	else
+	{
+		printf("....hatalý giriþ yaptýnýz....");
+		fflush (stdout);
+	}
+	for(d=2;d<=2;d++){
+	printf("Baþka bir iþlem yapmak ister misiniz? (e/h) ");
+	fflush (stdout);
+	scanf("%s",&q);
+	if(q=='e')
+	{
+	printf("\ntoplama için 1'e  1\nçýkarma için 2'ye  2\nçarpma için 3'e  3\nbölme için 4'e basýnýz.");
+	fflush (stdout);
+	scanf("%d", &sayi);
+	}
+	else
+	{
+		printf("bizi kullandýðýnýz icin teþekkürler");
+		fflush (stdout);
+	}
+
+}
+}
+}

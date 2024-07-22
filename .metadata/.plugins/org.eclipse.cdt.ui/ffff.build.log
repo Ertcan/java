@@ -1,0 +1,7 @@
+19:06:56 **** Incremental Build of configuration Debug for project ffff ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ffff.o" "..\\src\\ffff.c" 
+gcc -o ffff.exe "src\\ffff.o" 
+
+19:06:57 Build Finished. 0 errors, 0 warnings. (took 729ms)
+

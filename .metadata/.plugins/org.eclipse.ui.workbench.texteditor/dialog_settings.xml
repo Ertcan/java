@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="&#x09;int[] a = {758, 8357, 8119, 8848, 3908, 7247, 9833, 6113, 4131, 3401, 428, 354, 8267, 5998, 2127, 8824, 9413, 9631, 2491,"/>
+		<list key="findhistory">
+			<item value="&#x09;int[] a = {758, 8357, 8119, 8848, 3908, 7247, 9833, 6113, 4131, 3401, 428, 354, 8267, 5998, 2127, 8824, 9413, 9631, 2491,"/>
+			<item value="a.run();"/>
+		</list>
+	</section>
+</section>
